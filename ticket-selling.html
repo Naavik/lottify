@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./swiper/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ticket-selling.css">
+    <link rel="stylesheet" href="./css/stylename.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header header-catalog">
+            <div class="header__container">
+                <nav class="header__inner nav">
+                    <button class="burger-btn" type="button">
+                        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1H20" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M1 7.60889H20" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M1 14.2173H20" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <a href="index.html" class="header__logo">
+                        <img src="img/header/logo.svg" alt="logo" class="header__logo-img">
+                    </a>
+                    <div class="header__right">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class=" header__item-link">купить билеты</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__item-link">вопросы</a>
+                            </li>
+                        </ul>
+                        <button class="header__login">
+                            <img src="img/header/login.svg" alt="logIn" class="header__login-icoon">
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <h2 class="ticket-selling-title main-title container">
+                Продажа вашего билета 🎟
+            </h2>
+            <section class="page__banner page__banner-selling">
+                <div class="banner__container container">
+                    <div class="banner__inner">
+                        <div class="banner__content">
+                            <h4 class="banner__title">
+                                Не упускай шанс вернуть
+                                деньги за свой билет
+                            </h4>
+                            <p class="banner__subtitle">
+                                Не удается пойти на концерт? Ситуация досадная, но отчаиваться не стоит! Мы поможем
+                                продать билеты и вернуть потраченные деньги.
+                            </p>
+                        </div>
+                        <div class="banner__image">
+                            <svg width="172" height="172" viewBox="0 0 172 172" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M128.151 112.844C128.151 112.844 124.156 87.1179 114.221 90.7644C102.43 96.5312 101.516 115.754 104.045 116.442C109.278 117.883 111.651 90.0641 104.938 87.4501C98.223 84.8404 82.1892 115.234 86.9429 117.334C89.7562 118.577 90.6834 106.263 96.5509 91.8767C100.598 81.9533 110.911 75.8558 105.642 70.195C101.512 65.7581 83.4144 76.0021 77.1037 90.5045C70.3832 105.948 67.6428 125.894 71.3362 125.571C81.5377 123.76 78.5223 55.9885 65.4696 61.5087C59.7051 63.059 46.4374 132.426 62.2705 141.769C78.1037 151.112 80.4545 151.347 140.24 157.351"
+                                    stroke="#F4F9F4" stroke-width="1.14667" stroke-miterlimit="10"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M55.146 110.177L24.3847 54.9138C23.5388 53.3943 23.981 51.4811 25.4079 50.4868L35.3807 43.5374C36.7849 42.5589 38.6954 42.8293 40.192 43.6596C42.3663 44.866 45.5792 45.5527 49.1374 43.2108C52.6516 40.8979 53.4017 37.8963 53.1331 35.4795C52.9429 33.7679 53.3398 31.8684 54.7617 30.8969L67.0148 22.5246C68.6276 21.4225 70.8357 21.9092 71.8359 23.5871L94.0475 60.8502"
+                                    stroke="#F4F9F4" stroke-width="1.14667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M31.3905 66.5878L72.5978 39.7864" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M130.844 93.2148L131.314 34.4666C131.328 32.7223 130.015 31.2525 128.28 31.0704L118.155 30.0077C116.453 29.8291 114.914 30.9987 113.951 32.4132C112.732 34.2014 110.552 35.9292 106.945 35.647C103.388 35.3687 101.514 33.5283 100.623 31.626C99.8921 30.0664 98.6341 28.5825 96.9198 28.4185L80.8613 26.8819"
+                                    stroke="#F4F9F4" stroke-width="1.14667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M130.891 46.2649L91.7871 44.8163" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M27.4616 92.9973C28.0422 99.6944 30.9371 101.931 37.4219 101.368C30.8361 101.939 28.481 104.757 29.0507 111.329C28.4875 104.832 25.6848 102.386 19.111 102.956C25.8098 102.375 28.0301 99.9335 27.4616 92.9973Z"
+                                    stroke="#F4F9F4" stroke-width="1.14667" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M37.3477 101.387L40.3176 101.129" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M16.2344 103.218L19.2043 102.96" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M29.0625 111.246L29.32 114.216" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M27.2305 90.1328L27.4879 93.1027" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M143.717 12.8174C142.189 17.754 143.601 20.1855 148.382 21.6654C143.527 20.1625 141.033 21.4856 139.534 26.3301C141.016 21.5411 139.73 18.987 134.884 17.4868C139.822 19.0155 142.111 17.9208 143.717 12.8174Z"
+                                    stroke="#F4F9F4" stroke-width="1.14667" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M148.315 21.6562L150.505 22.334" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M132.765 16.8408L134.954 17.5186" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M139.562 26.2744L138.884 28.4636" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M144.382 10.7119L143.704 12.9011" stroke="#F4F9F4" stroke-width="1.14667"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__ticket-selling">
+                <div class="ticket-selling__container container">
+                    <div class="ticket-selling__inner">
+                        <div class="ticket-selling__desc">
+                            <p class="ticket-selling__desc-text">
+                                Наш сервис разработан с целью, чтобы гарантировать, что билеты никогда не остаются не
+                                проданными, а все места всегда заняты 😉
+                            </p>
+                            <p class="ticket-selling__desc-text">
+                                Заполняй форму и подключитесь к нам! Наши агенты в рабочее время моментально свяжуться с
+                                вами, чтобы обсудить детали и полностью организовать весь процесс.
+                            </p>
+                        </div>
+                        <div class="ticket-selling__content">
+                            <form action="#" class="ticket-selling__form">
+                                <h4 class="ticket-selling__title">Заполните данные</h4>
+                                <div class="ticket-selling__rows">
+                                    <div class="ticket-selling__row">
+                                        <p class="ticket-selling__row-name">название организации</p>
+                                        <label class="ticket-selling__row-label">
+                                            <input type="text" name="название организации"
+                                                class="ticket-selling__row-input" placeholder="название организации">
+                                        </label>
+                                    </div>
+                                    <div class="ticket-selling__row">
+                                        <p class="ticket-selling__row-name">имя</p>
+                                        <label class="ticket-selling__row-label">
+                                            <input type="text" name="имя" class="ticket-selling__row-input"
+                                                placeholder="Иван">
+                                        </label>
+                                    </div>
+                                    <div class="ticket-selling__row">
+                                        <p class="ticket-selling__row-name">телефон</p>
+                                        <label class="ticket-selling__row-label">
+                                            <input type="text" name="телефон" class="ticket-selling__row-input"
+                                                placeholder="+7 (900) 743 87 61">
+                                        </label>
+                                    </div>
+                                    <div class="ticket-selling__row">
+                                        <p class="ticket-selling__row-name">email</p>
+                                        <label class="ticket-selling__row-label">
+                                            <input type="email" name="email" class="ticket-selling__row-input"
+                                                placeholder="@yandex.ru">
+                                        </label>
+                                    </div>
+                                    <div class="ticket-selling__row">
+                                        <p class="ticket-selling__row-name">сообщение</p>
+                                        <label class="ticket-selling__row-label">
+                                            <input type="text" name="сообщение" class="ticket-selling__row-input"
+                                                placeholder="—">
+                                        </label>
+                                    </div>
+                                </div>
+                                <label class="ticket-selling__label-textarea">
+                                    <textarea name="Комментарий" class="ticket-selling__textarea"
+                                        placeholder="Комментарий"></textarea>
+                                </label>
+                                <button class="ticket-selling__btn btn-main" type="submit">
+                                    отправить
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__faq page__faq-two">
+                <div class="faq__container container">
+                    <div class="faq__inner">
+                        <h2 class="faq__title main-title">Ответы на вопросы</h2>
+                        <div class="faq__content">
+                            <div class="faq__accordions">
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Когда и как я получу деньги?</h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Сразу на следующий день после окончания мероприятия, если покупатель не
+                                                сообщит, что у него возникли проблемы с использование билета, средства
+                                                будут автоматически переведены с замороженного счета на Ваш основной, и
+                                                Вы сможете вывести их на карту.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Берете ли вы комиссию?</h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Биржа Lottify берет только сервисный сбор — это 10% комиссия с
+                                                покупателя билета, так же как и любой другой билетный оператор.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Как продать бумажные билеты?</h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Если мы найдем покупателя на Ваш бумажный билет, то наши агенты
+                                                организуют весь процесс — заберут билет у вас и доставят его покупателю.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Что будет, если мой билет никто так и не
+                                            купит?
+                                        </h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Мы не можем гарантировать 100% продажу Вашего билета. Такое может быть,
+                                                если событие на которое вы продаете билет непопулярное, цена слишком
+                                                высокая или вы продаете билет слишком близко ко времени начала
+                                                мероприятия. Если мероприятие на которое вы продаете билет завершится, а
+                                                билет так и не продастся, то мы уже не сможем найти на него покупателя —
+                                                он просто останется не использованным.
+                                                <br> <br>
+                                                Но наша статистика показывает, что больше 90% билетов продаются в
+                                                течение 4 дней — поэтому в наших силах сделать так, чтобы ни один билет
+                                                не пропал, а события всегда полны зрителей🙂 Наши агенты в нужный момент
+                                                предложат Вам варианты, как увеличить шансы на успешную продажу билета.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="img/faq/2.svg" alt="img" class="faq__right-img-pos">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__inner">
+                    <div class="footer__column footer__column-first">
+                        <a href="index.html" class="footer__column-logo">
+                            <img src="img/header/logo-white.svg" alt="img" class="footer__column-logo-img">
+                        </a>
+                        <div class="footer__column-desc">
+                            <p class="footer__column-text">
+                                8-800 с 9:00 до 20:00 по МСК
+                            </p>
+                            <p class="footer__column-text">
+                                Lottify — это безопасно и надежно покупайте билеты на мероприятия в любом удобном месте
+                            </p>
+                            <p class="footer__column-text">
+                                © 2021 - 2023 Все права защищены
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-item-link">
+                                    правила оказания услуг
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1p9vJncVj3Ki9UkVHQPGjz21nRqLM_6vfbK_H-RfQfl4/edit"
+                                    class="footer__column-item-link">
+                                    оплата и доставка
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1XpH-VttpY8Zaj1uwzTwTbt3DEPDtYJcv/edit"
+                                    class="footer__column-item-link">
+                                    политика конфиденциальности
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1Xy3iyTXuAZi6Yoj9gcv0LfS28L_ZtFo6/edit?rtpof=true&sd=true"
+                                    class="footer__column-item-link">
+                                    агентское соглашение по оказанию услуг
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1LnXxUu3n6xWjU48GAMJbGx9O0riuMUPEtZwDhvd204o/edit"
+                                    class="footer__column-item-link">
+                                    о нас
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1LnXxUu3n6xWjU48GAMJbGx9O0riuMUPEtZwDhvd204o/edit#heading=h.p2z6z2m4gyar"
+                                    class="footer__column-item-link">
+                                    контакты и реквизиты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__column-desc footer__column-desc-mob">
+                        <p class="footer__column-text">
+                            8-800 с 9:00 до 20:00 по МСК
+                        </p>
+                        <p class="footer__column-text">
+                            Lottify — это безопасно и надежно покупайте билеты на мероприятия в любом удобном месте
+                        </p>
+                        <p class="footer__column-text">
+                            © 2021 - 2023 Все права защищены
+                        </p>
+                    </div>
+                    <div class="footer__column footer__column-payment">
+                        <img src="img/footer/payment.png" alt="img" class="footer__column-img-paymnet">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="burger-menu">
+            <div class="burger-menu__window">
+                <div class="burger-menu__top">
+                    <button class="burger-menu__btn burger-btn" type="button">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.89111L5.5 6.39111" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M10 11L14.5 15.5" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M14.4355 1.89111L1.00052 15.3261" stroke="#0B841C" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <a href="index.html" class="burger-menu__logo-link">
+                        <img src="img/header/logo.svg" alt="logo" class="header__logo-img">
+                    </a>
+                </div>
+                <div class="burger-menu__main">
+                    <div class="burger-menu__row">
+                        <a href="#" class="burger-menu__payments">
+                            <div class="burger-menu__payments-left">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="14.0686" cy="11.2871" rx="12.392" ry="10.2388"
+                                        transform="rotate(-4.36322 14.0686 11.2871)" fill="#EAE024" />
+                                    <path
+                                        d="M23.972 22.8397C14.5711 28.5921 2.0395 24.1119 1.46136 14.7364C1.15236 9.72548 4.58634 3.32175 13.9082 3.22204C20.744 3.14892 25.238 6.9254 26.1857 11.871C28.642 24.6895 8.41675 25.9258 3.93814 16.5155"
+                                        stroke="#152026" stroke-linecap="round" />
+                                    <path
+                                        d="M13.799 17.4323L13.4445 6.82384C14.0809 6.64666 15.6707 6.80449 16.8092 7.26698C18.6588 8.01837 19.3806 11.2972 16.8368 12.8274C14.8018 14.0516 12.6419 13.2127 11.7813 13.0318M11.6547 15.4146L16.103 15.4829"
+                                        stroke="#152026" stroke-linecap="round" />
+                                </svg>
+                                <p class="burger-menu__text">Доступно к выплате</p>
+                            </div>
+                            <div class="burger-menu__payments-right">
+                                <span class="burger-menu__payments-value">
+                                    0 ₽
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="burger-menu__row">
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <svg class="burger-menu__item-icon" width="30" height="30" viewBox="0 0 30 30"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="15.0615" cy="14.2996" rx="13.1364" ry="10.9661"
+                                            transform="rotate(22.3873 15.0615 14.2996)" fill="#EAE024" />
+                                        <path
+                                            d="M19.9987 4C18.4519 6.57812 16.2305 4.56859 13.2957 5.54688C8.65506 7.09375 9.68595 16.375 15.3582 16.375C18.4519 16.375 20.1706 12.4219 18.9674 9.67188"
+                                            stroke="#152026" stroke-linecap="round" />
+                                        <path
+                                            d="M4.18555 26.6877C4.8418 23.9377 8.02461 18.4377 15.5059 18.4377C22.9871 18.4377 25.5137 23.9377 25.8418 26.6877"
+                                            stroke="#152026" stroke-linecap="round" />
+                                        <path d="M13.9824 8.64062C16.0449 8.8125 20.1699 8.125 20.1699 4"
+                                            stroke="#152026" stroke-linecap="round" />
+                                    </svg>
+                                    <p class="burger-menu__item-name burger-menu__text">Профиль</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <svg class="burger-menu__item-icon" width="30" height="30" viewBox="0 0 30 30"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="15.6057" cy="14.4704" rx="10.597" ry="9.44405"
+                                            transform="rotate(22.3873 15.6057 14.4704)" fill="#EAE024" />
+                                        <path
+                                            d="M3.25641 9.03017C9.53749 0.131675 23.9326 3.16952 26.0104 13.885C27.1209 19.6121 23.4365 25.6579 16.8656 26.3034C10.2955 26.9488 5.58624 23.1628 4.30379 18.9752C0.616864 6.93631 17.4979 1.61106 23.337 12.0461"
+                                            stroke="#152026" stroke-linecap="round" />
+                                        <path d="M8.49023 15.5206L13.2011 18.4518L19.4823 12.1707" stroke="#152026"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                    <p class="burger-menu__item-name burger-menu__text">История заказов</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <svg class="burger-menu__item-icon" width="30" height="30" viewBox="0 0 30 30"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2860_484)">
+                                            <ellipse cx="15.6274" cy="14.0642" rx="11.8504" ry="11.7778"
+                                                transform="rotate(-55.2473 15.6274 14.0642)" fill="#EAE024" />
+                                            <path
+                                                d="M6.59025 26.7619C5.33023 17.9418 6.06524 8.38667 6.59025 4.71162C14.1508 3.8716 20.9403 4.36161 23.39 4.71162C25.49 11.0117 24.265 22.0369 23.39 26.7619C17.5099 27.6019 9.74013 27.1119 6.59025 26.7619Z"
+                                                stroke="#152026" stroke-linecap="round" />
+                                            <path d="M16.5645 10.4868H20.7645" stroke="#152026"
+                                                stroke-linecap="round" />
+                                            <path d="M16.5645 17.3118H20.7645" stroke="#152026"
+                                                stroke-linecap="round" />
+                                            <path d="M9.21484 9.9616L10.7899 11.5366L12.8899 7.86157" stroke="#152026"
+                                                stroke-linecap="round" />
+                                            <circle cx="11.3149" cy="17.3119" r="1.60003" stroke="#152026" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2860_484">
+                                                <rect width="30" height="30" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="burger-menu__item-name burger-menu__text">Правила</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger-menu__row">
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <p class="burger-menu__item-text">О нас</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <p class="burger-menu__item-text">Как работает сервис</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <p class="burger-menu__item-text">Ответы на вопросы</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger-menu__row">
+                        <a href="#" class="burger-menu__link-btn">
+                            связаться с нами
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="swiper/swiper.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

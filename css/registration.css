@@ -1,0 +1,118 @@
+.page__instructions-reg {
+    margin: 0px 0px 30px 0px;
+}
+
+.page__instructions-reg .instructions__title {
+    max-width: 460px;
+}
+
+.page__registration {
+    margin: 0px 0px 56px 0px;
+}
+
+.registration__container {}
+
+.registration__inner {
+    max-width: 542px;
+    width: 100%;
+
+    padding: 30px;
+
+    box-shadow: 0 0 13px 0 #dae6da;
+    background: #f4f9f4;
+    border-radius: 20px;
+}
+
+.registration__form {
+    max-width: 343px;
+    width: 100%;
+}
+
+.registration__title {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.registration__rows {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    margin: 0px 0px 38px 0px;
+}
+
+.registration__row {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.registration__row-name {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+
+    width: 115px;
+}
+
+.registration__row-label {}
+
+.registration__row-input {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #152026;
+    background-color: transparent;
+}
+
+.registration__row-input::placeholder {
+    color: #152026;
+}
+
+.registration__btn {
+    padding: 5px 10px;
+    width: 100%;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #152026;
+
+    background: #eae024;
+    border-radius: 50px;
+}
+
+/* --------------------media----------- */
+
+@media(max-width:768px) {
+    .page__instructions-reg .instructions__title {
+        margin: 0px 0px 11px 0px;
+    }
+
+    .page__instructions-reg .instructions__card-link {
+        display: none;
+    }
+
+    .registration__inner {
+        max-width: unset;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .registration__title{
+        font-size: 16px;
+        margin: 0px 0px 8px 0px;
+    }
+
+    .registration__rows{
+        margin: 0px 0px 24px 0px;
+    }
+
+    .page__registration{
+        margin: 0px 0px 44px 0px;
+    }
+}

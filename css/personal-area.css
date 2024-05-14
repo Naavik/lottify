@@ -1,0 +1,328 @@
+.page__personal-area {
+    padding: 60px 0;
+}
+
+.personal-area__container {}
+
+.personal-area__inner {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.personal-area__account {
+    max-width: 398px;
+    width: 100%;
+
+    padding: 30px;
+
+    box-shadow: 0 0 13px 0 #dae6da;
+    background: #f4f9f4;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.personal-area__account-elem-pos {
+    position: absolute;
+    display: none;
+}
+
+.personal-area__account-elem-pos1 {
+    top: -20px;
+    left: -6px;
+}
+
+.personal-area__account-elem-pos2 {
+    bottom: -10px;
+    right: 0;
+}
+
+.personal-area__account-elem-pos3 {
+    bottom: -20px;
+    right: 20px;
+}
+
+.personal-area__account-head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin: 0px 0px 52px 0px;
+}
+
+.personal-area__account-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.personal-area__account-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.personal-area__account-name-email {}
+
+.personal-area__account-name {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #152026;
+
+    margin: 0px 0px 6px 0px;
+}
+
+.personal-area__account-email {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #152026;
+}
+
+.personal-area__account-right {}
+
+.personal-area__account-btn-edit {
+    background-color: transparent;
+}
+
+.personal-area__account-main {
+    margin: 0px 0px 60px 0px;
+}
+
+.personal-area__account-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.personal-area__account-desc-row {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.personal-area__account-desc-row-name {
+    min-width: 115px;
+
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+}
+
+.personal-area__account-desc-row-name-value {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #152026;
+}
+
+.personal-area__account-footer {}
+
+.personal-area__account-footer-mob {
+    display: none;
+}
+
+.personal-area__account-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.personal-area__account-item {}
+
+.personal-area__account-item:not(:last-child) {
+    padding: 0px 0px 14px 0px;
+    border-bottom: 1px solid rgb(171, 174, 171);
+}
+
+.personal-area__account-item-link {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.personal-area__account-item-icon {
+    width: 17px;
+    height: 17px;
+}
+
+.personal-area__account-item-name {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+}
+
+.personal-area__right {
+    max-width: 380px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.personal-area-balance {
+    background: #0b841c;
+    border-radius: 10px;
+    padding: 28px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.personal-area-balance-bg {
+    position: absolute;
+    top: -40px;
+    right: -90px;
+    z-index: -1;
+}
+
+.personal-area-balance__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin: 0px 0px 22px 0px;
+}
+
+.personal-area-balance__id {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #f4f9f4;
+}
+
+.personal-area-balance__status {
+    border: 1px solid #f4f9f4;
+    border-radius: 50px;
+    padding: 5px 19px;
+
+    font-weight: 500;
+    font-size: 12px;
+    color: #f4f9f4;
+}
+
+.personal-area-balance__main {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #f4f9f4;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    max-width: 240px;
+    width: 100%;
+
+    margin: 0px 0px 66px 0px;
+}
+
+.personal-area-balance__left {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.personal-area-balance__btn {
+    padding: 5px;
+    width: 100%;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #152026;
+    text-align: center;
+
+    background: #eae024;
+    border-radius: 50px;
+}
+
+.personal-area-banner {
+    width: 100%;
+    padding: 2px 24px 6px 28px;
+
+    background: #dfccea;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.personal-area-banner__text {
+    max-width: 180px;
+}
+
+.personal-area-banner__name {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #152026;
+
+    margin: 0px 0px 6px 0px;
+}
+
+.personal-area-banner__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+}
+
+.personal-area-banner__img {
+    width: 104px;
+}
+
+/* -----------------media-------------- */
+
+@media(max-width:768px) {
+
+    .page__personal-area {
+        padding: 30px 0 40px 0;
+    }
+
+    .personal-area__inner {
+        flex-direction: column;
+        gap: 43px;
+    }
+
+    .personal-area__account {
+        max-width: unset;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .personal-area__account .personal-area__account-footer {
+        display: none;
+    }
+
+    .personal-area__account-head {
+        margin: 0px 0px 26px 0px;
+    }
+
+    .personal-area__account-main {
+        margin: 0px 0px 0 0px;
+    }
+
+    .personal-area__right {
+        max-width: unset;
+        gap: 12px;
+    }
+
+    .personal-area__account-footer-mob {
+        display: block;
+        padding: 18px 0px 0px 0px;
+    }
+
+    .personal-area__account-elem-pos {
+        display: block;
+    }
+}

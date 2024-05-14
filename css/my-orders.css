@@ -1,0 +1,133 @@
+.page__my-orders {
+    margin: 0px 0px 26px 0px;
+}
+
+.my-orders__container {}
+
+.my-orders__inner {}
+
+.my-orders__title {
+    margin: 0px 0px 50px 0px;
+}
+
+.my-orders__content {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.my-orders__cards {
+    max-width: 514px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.my-orders__card {
+    box-shadow: 0 0 13px 0 #dae6da;
+    background: #f4f9f4;
+    border-radius: 10px;
+
+    padding: 30px;
+}
+
+.my-orders__card-number {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #152026;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.my-orders__card-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    margin: 0px 0px 42px 0px;
+}
+
+.my-orders__card-desc-row {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.my-orders__card-desc-name {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+
+    min-width: 115px;
+}
+
+.my-orders__card-desc-name-value {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #152026;
+}
+
+.my-orders__card-btn {
+    padding: 5px 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #152026;
+    text-align: center;
+
+    max-width: 230px;
+    width: 100%;
+
+    border: 1px solid #152026;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+/* -------------------media-------------- */
+
+@media(max-width:768px) {
+
+    .page__my-orders .faq__right {
+        display: flex;
+        max-width: unset;
+        gap: 16px;
+    }
+
+    .faq__right-img {
+        bottom: 0;
+    }
+
+    .faq__right-hide {
+        display: block;
+    }
+
+
+    .my-orders__content {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .my-orders__cards {
+        max-width: unset;
+        gap: 16px;
+    }
+
+    .my-orders__title {
+        margin: 0px 0px 24px 0px;
+    }
+
+    .my-orders__card-btn {
+        max-width: unset;
+    }
+}
+
+@media(max-width:370px) {
+    .faq__right-img {
+        max-width: 120px;
+    }
+}

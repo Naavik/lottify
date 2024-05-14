@@ -1,0 +1,230 @@
+.page__my-lots {
+    margin: 0px 0px 120px 0px;
+}
+
+.my-lots__container {}
+
+.my-lots__inner {}
+
+.my-lots__title {
+    margin: 0px 0px 45px 0px;
+}
+
+.my-lots__contnet {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.my-lots__left {
+    max-width: 512px;
+    width: 100%;
+}
+
+.my-lots__tabs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    border-bottom: 2px solid rgb(11, 132, 28, .5);
+
+    width: 100%;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.my-lots__tab {
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: -0.02em;
+    text-transform: lowercase;
+    color: rgb(11, 132, 28, .5);
+
+    position: relative;
+
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.my-lots__tab::after {
+    content: '';
+
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+
+    border-radius: 20px;
+    background-color: rgb(11, 132, 28);
+
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+
+.my-lots__tab--active {
+    color: rgb(11, 132, 28);
+}
+
+.my-lots__tab--active.my-lots__tab::after {
+    opacity: 1;
+}
+
+.my-lots__tab-text {
+    position: relative;
+    display: inline-block;
+}
+
+.lots__tab-value {
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    color: rgb(11, 132, 28, .5);
+    font-size: 8px;
+}
+
+.my-lots__tab--active .lots__tab-value {
+    color: rgb(11, 132, 28);
+}
+
+.my-lots__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my-lots__card {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.my-lots__card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.my-lots__card-img {}
+
+.my-lots__card-image {
+    width: 140px;
+    height: 80px;
+}
+
+.my-lots__card-desc {}
+
+.my-lots__card-price {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #152026;
+
+    margin: 0px 0px 5px 0px;
+}
+
+.my-lots__card-name {
+    font-weight: 500;
+    font-size: 9px;
+    letter-spacing: -0.02em;
+    color: #152026;
+
+    margin: 0px 0px 15px 0px;
+}
+
+.my-lots__card-desc-text {
+    font-weight: 500;
+    font-size: 9px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+}
+
+.my-lots__card-btn-edit {
+    background-color: transparent;
+}
+
+.my-lots__right {
+    max-width: 247px;
+    width: 100%;
+
+    margin: 10px 0px 0px 0px;
+}
+
+.my-lots__banner {
+    width: 100%;
+    background: #0b841c;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-lots__banner-content {
+    padding: 0px 0px 0px 16px;
+}
+
+.my-lots__banner-title {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #f4f9f4;
+}
+
+.my-lots__banner-subtitle {
+    font-weight: 500;
+    font-size: 7px;
+    letter-spacing: -0.02em;
+    color: #f4f9f4;
+}
+
+.my-lots__banner-img {}
+
+/* ------------------media-------------- */
+
+@media(max-width:768px) {
+    .my-lots__contnet {
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+
+    .my-lots__title {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .my-lots__right,
+    .my-lots__left {
+        max-width: unset;
+    }
+
+    .my-lots__banner-content {
+        padding: 0;
+    }
+
+    .my-lots__banner {
+        padding: 0 20px;
+    }
+
+    .my-lots__card-image{
+        width: 100px;
+        height: 76px;
+    }
+
+    .my-lots__card{
+        gap: 23px;
+    }
+
+    .my-lots__cards{
+        gap: 10px;
+    }
+
+    .page__my-lots{
+        margin: 0px 0px 60px 0px;
+    }
+}

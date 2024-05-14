@@ -1,0 +1,346 @@
+.page__checkout {
+    margin: 0px 0px 74px 0px;
+}
+
+.checkout__container {}
+
+.checkout__inner {}
+
+.checkout__head {
+    margin: 0px 0px 16px 0px;
+}
+
+.checkout__title {
+    margin: 0px 0px 11px 0px;
+}
+
+.checkout__filters {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.checkout__check-all {}
+
+.checkout__check-all-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkout__check-all-label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.checkout__delete {}
+
+.checkout__delete-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+}
+
+.checkout__delete-icon {}
+
+.checkout__delete-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.checkout__main {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.checkout__article {
+    max-width: 460px;
+    width: 100%;
+
+    padding: 16px 0px 0px 0px;
+    border-top: 1px solid rgb(122, 125, 122);
+}
+
+.checkout__article-tickets {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    margin: 0px 0px 30px 0px;
+}
+
+.checkout__article-ticket {
+    padding: 0px 0px 30px 0px;
+    border-bottom: 1px solid rgb(122, 125, 122);
+}
+
+.checkout__article-ticket-head {}
+
+.checkout__article-ticket-check {
+    margin: 0px 0px 13px 0px;
+}
+
+.checkout__article-ticket-checkbox {}
+
+.checkout__article-ticket-checkbox+label::before {
+    margin-right: 10px !important;
+}
+
+.checkout__article-ticket-label {
+    width: 100%;
+}
+
+.checkout__article-ticket-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.checkout__article-ticket-name {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #152026;
+}
+
+.checkout__article-ticket-price {
+    font-weight: 500;
+    font-size: 21px;
+    color: #152026;
+}
+
+.checkout__article-ticket-desc {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+
+    max-width: 268px;
+    padding: 0px 0px 0px 26px;
+    margin: 0px 0px 13px 0px;
+}
+
+.checkout__article-ticket-main {
+    padding: 0px 0px 0px 26px;
+}
+
+.checkout__article-ticket-row-place {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.checkout__article-ticket-row {}
+
+.checkout__article-ticket-place {}
+
+.checkout__article-ticket-seller {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    margin: 0px 0px 18px 0px;
+}
+
+.checkout__article-ticket-seller-avatar {
+    width: 19px;
+    height: 19px;
+
+    border-radius: 100%;
+}
+
+.checkout__article-ticket-seller-name {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #152026;
+}
+
+.checkout__article-ticket-seller-comment {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+}
+
+.checkout__article-ticket-footer {
+    max-width: 247px;
+
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #152026;
+
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.checkout__article-ticket-footer-desc {}
+
+.checkout__sidebar {
+    max-width: 287px;
+    width: 100%;
+
+    padding: 16px 20px 25px 20px;
+
+    box-shadow: 0 0 13px 0 #dae6da;
+    background: #f4f9f4;
+    border-radius: 20px;
+}
+
+.checkout__sidebar-form {}
+
+.checkout__sidebar-quantity {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin: 0px 0px 10px 0px;
+}
+
+.checkout__sidebar-quantity-text {}
+
+.checkout__sidebar-quantity-value {}
+
+.checkout__sidebar-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    font-weight: 500;
+    font-size: 21px;
+    color: #152026;
+
+    margin: 0px 0px 30px 0px;
+}
+
+.checkout__sidebar-price-text {}
+
+.checkout__sidebar-price-value {
+    color: #0b841c;
+}
+
+.checkout__sidebar-btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: #152026;
+
+    margin: 0px 0px 24px 0px;
+    padding: 5px 10px;
+    width: 100%;
+
+    background: #eae024;
+    border-radius: 50px;
+}
+
+.checkout__sidebar-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.checkout__sidebar-check {}
+
+.checkout__sidebar-checkbox {}
+
+.checkout__sidebar-checkbox+label {
+    align-items: start !important;
+}
+
+.checkout__sidebar-checkbox+label::before {
+    margin-right: 18px !important;
+}
+
+.checkout__sidebar-check-label {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(21, 32, 38, .5);
+}
+
+
+/* ---------------media----------- */
+
+@media(max-width:768px) {
+    .checkout__main {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .checkout__article,
+    .checkout__sidebar {
+        max-width: unset;
+    }
+
+    .checkout__head {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .checkout__article {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .checkout__article-ticket-check {
+        margin: 0px 0px 2px 0px;
+    }
+
+    .checkout__article-ticket {
+        padding: 0px 0px 23px 0px;
+    }
+
+    .page__checkout{
+        margin: 0px 0px 40px 0px;
+    }
+}
+
+@media(max-width:500px) {
+    .checkout__article-ticket-desc {
+        font-size: 7px;
+        max-width: 165px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .checkout__article-ticket-row-place {
+        font-size: 16px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    .checkout__article-ticket-seller-avatar {
+        width: 14px;
+        height: 14px;
+    }
+
+    .checkout__article-ticket-seller-name,
+    .checkout__article-ticket-seller-comment {
+        font-size: 7px;
+    }
+
+    .checkout__article-ticket-seller {
+        gap: 5px;
+        margin: 0px 0px 8px 0px;
+    }
+
+}

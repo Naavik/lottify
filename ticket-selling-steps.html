@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./swiper/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ticket-selling-steps.css">
+    <link rel="stylesheet" href="./css/stylename.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header header-catalog">
+            <div class="header__container">
+                <nav class="header__inner nav">
+                    <button class="burger-btn" type="button">
+                        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1H20" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M1 7.60889H20" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M1 14.2173H20" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <a href="index.html" class="header__logo">
+                        <img src="img/header/logo.svg" alt="logo" class="header__logo-img">
+                    </a>
+                    <div class="header__right">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class=" header__item-link">купить билеты</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__item-link">вопросы</a>
+                            </li>
+                        </ul>
+                        <button class="header__login">
+                            <img src="img/header/login.svg" alt="logIn" class="header__login-icoon">
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="page__ticket-selling-steps">
+                <div class="ticket-selling-steps__container container-two">
+                    <div class="ticket-selling-steps__inner">
+                        <form action="#" class="ticket-selling-steps__form">
+                            <div class="ticket-selling-steps__content ticket-selling-steps__content--active">
+                                <h1 class="ticket-selling-steps__title main-title">Продать билет</h1>
+                                <div class="ticket-selling-steps__box">
+                                    <div class="ticket-selling-steps__row">
+                                        <div class="ticket-selling-steps__row-input">
+                                            <p class="ticket-selling-steps__input-name">Название события</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Название события"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-event-name-inp"
+                                                    placeholder="Название события">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row">
+                                        <div class="ticket-selling-steps__row-input">
+                                            <p class="ticket-selling-steps__input-name">Место проведения</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Место проведения"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-location-inp"
+                                                    placeholder="Россия, Москва">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row">
+                                        <div class="ticket-selling-steps__row-input">
+                                            <p class="ticket-selling-steps__input-name">Дата</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Дата"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-date-inp"
+                                                    placeholder="07. 01.24">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row">
+                                        <div class="ticket-selling-steps__row-input">
+                                            <p class="ticket-selling-steps__input-name">Количество билетов</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Количество билетов"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-num-tickets-inp"
+                                                    placeholder="1">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row">
+                                        <p class="ticket-selling-steps__row-text">
+                                            Формат билета
+                                        </p>
+                                        <div class="ticket-selling-steps__row-input ticket-selling-steps__row-radio">
+                                            <input type="radio" checked name="ticket-selling-steps-radio"
+                                                id="ticket-selling-steps-radio-1" class="ticket-selling-steps__radio">
+                                            <label for="ticket-selling-steps-radio-1"
+                                                class="ticket-selling-steps__radio-label">
+                                                Электронный билет
+                                            </label>
+                                            <input type="radio" name="ticket-selling-steps-radio"
+                                                id="ticket-selling-steps-radio-2" class="ticket-selling-steps__radio">
+                                            <label for="ticket-selling-steps-radio-2"
+                                                class="ticket-selling-steps__radio-label">
+                                                Бумажный билет
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row ticket-selling-steps__row-textarea">
+                                        <textarea name="Комментарий" class="ticket-selling-steps__textarea"
+                                            placeholder="Комментарий"></textarea>
+                                    </div>
+                                </div>
+                                <div class="ticket-selling-steps__box ticket-selling-steps__box-ticket-num">
+                                    <h2 class="ticket-selling-steps__box-title main-title">
+                                        Билет №1
+                                    </h2>
+                                    <div class="ticket-selling-steps__box-body">
+                                        <div class="ticket-selling-steps__row">
+                                            <div class="ticket-selling-steps__row-input">
+                                                <p class="ticket-selling-steps__input-name">Сектор</p>
+                                                <label class="ticket-selling-steps__label">
+                                                    <input type="text" name="Сектор"
+                                                        class="ticket-selling-steps__input ticket-selling-steps-sector-inp"
+                                                        placeholder="1">
+                                                </label>
+                                            </div>
+                                            <div class="ticket-selling-steps__row-input">
+                                                <p class="ticket-selling-steps__input-name">Ряд</p>
+                                                <label class="ticket-selling-steps__label">
+                                                    <input type="text" name="Ряд"
+                                                        class="ticket-selling-steps__input ticket-selling-steps-row-inp"
+                                                        placeholder="3">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-selling-steps__row">
+                                            <div class="ticket-selling-steps__row-input">
+                                                <p class="ticket-selling-steps__input-name">Место</p>
+                                                <label class="ticket-selling-steps__label">
+                                                    <input type="text" name="Место"
+                                                        class="ticket-selling-steps__input ticket-selling-steps-place-inp"
+                                                        placeholder="12">
+                                                </label>
+                                            </div>
+                                            <div class="ticket-selling-steps__row-input">
+                                                <p class="ticket-selling-steps__input-name">Цена продажи</p>
+                                                <label class="ticket-selling-steps__label">
+                                                    <input type="text" name="Цена продажи"
+                                                        class="ticket-selling-steps__input ticket-selling-steps-price-inp"
+                                                        placeholder="руб.">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ticket-selling-steps__btns">
+                                    <button class="ticket-selling-steps__btn ticket-selling-steps__btn-prev"
+                                        type="button">
+                                        Назад</button>
+                                    <button class="ticket-selling-steps__btn ticket-selling-steps__btn-next"
+                                        type="button">
+                                        Далее</button>
+                                </div>
+                            </div>
+                            <div class="ticket-selling-steps__content">
+                                <h1 class="ticket-selling-steps__title ticket-selling-steps__title-choise main-title">
+                                    Электронный билет</h1>
+                                <p class="ticket-selling-steps__subtitle ticket-selling-steps__subtitle-choise">
+                                    Оставьте ваши контактные данные и мы свяжемся с вами в ближайшее время, чтобы
+                                    уточнить
+                                    детали необходимые для передачи вашего билета
+                                </p>
+                                <div class="ticket-selling-steps__box">
+                                    <div class="ticket-selling-steps__row-file">
+                                        <label class="ticket-selling-steps__row-file-label">
+                                            <input type="file" name="file[]"
+                                                class="ticket-selling-steps__row-file-input">
+                                            <p class="ticket-selling-steps__row-file-text">Загрузить билет в формате PDF
+                                            </p>
+                                            <p class="ticket-selling-steps__row-file-btn">Загрузить</p>
+                                        </label>
+                                    </div>
+                                    <div class="ticket-selling-steps__row-type ticket-selling-steps__row-type-title">
+                                        <h6 class="ticket-selling-steps__row-type-title-text">Ваши данные </h6>
+                                    </div>
+                                    <div class="ticket-selling-steps__row-type">
+                                        <div class="ticket-selling-steps__row-type-inp">
+                                            <p class="ticket-selling-steps__row-type-name">Фамилия</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Фамилия"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-surname-inp"
+                                                    placeholder="Фамилия">
+                                            </label>
+                                        </div>
+                                        <div class="ticket-selling-steps__row-type-inp">
+                                            <p class="ticket-selling-steps__row-type-name">Имя</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Имя"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-name-inp"
+                                                    placeholder="Имя">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row-type">
+                                        <div class="ticket-selling-steps__row-type-inp">
+                                            <p class="ticket-selling-steps__row-type-name">Отчетсво</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Отчетсво"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-surname2-inp"
+                                                    placeholder="Отчетсво">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__row-type">
+                                        <div class="ticket-selling-steps__row-type-inp">
+                                            <p class="ticket-selling-steps__row-type-name">Телефон</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="Телефон"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-tel-inp"
+                                                    placeholder="+7 (9">
+                                            </label>
+                                        </div>
+                                        <div class="ticket-selling-steps__row-type-inp">
+                                            <p class="ticket-selling-steps__row-type-name">email</p>
+                                            <label class="ticket-selling-steps__label">
+                                                <input type="text" name="email"
+                                                    class="ticket-selling-steps__input ticket-selling-steps-email-inp"
+                                                    placeholder="@">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ticket-selling-steps__btns">
+                                    <button class="ticket-selling-steps__btn ticket-selling-steps__btn-prev"
+                                        type="button">
+                                        Назад</button>
+                                    <button class="ticket-selling-steps__btn ticket-selling-steps__btn-next"
+                                        type="button">
+                                        Далее</button>
+                                </div>
+                            </div>
+                            <div class="ticket-selling-steps__content">
+                                <h1 class="ticket-selling-steps__title main-title">Итог</h1>
+                                <p class="ticket-selling-steps__subtitle">
+                                    Оставьте ваши контактные данные и мы свяжемся с вами в ближайшее время, чтобы
+                                    уточнить
+                                    детали необходимые для передачи вашего билета
+                                </p>
+                                <div class="ticket-selling-steps__result">
+                                    <div class="ticket-selling-steps__result-boxes">
+                                        <div class="ticket-selling-steps__result-box">
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">название события</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-event-name">
+                                                    Щелкунчик</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">место проведения</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-location">
+                                                    Театр оперы и балета
+                                                    им.
+                                                    П. И. Чайковского</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">дата</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-date">
+                                                    07.01.24</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">комментарий</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-comments">
+                                                    —</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">количество билетов</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-num-tickets">
+                                                </p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">формат билета</p>
+                                                <div class="ticket-selling-steps__result-radio">
+                                                    <div
+                                                        class="ticket-selling-steps__result-radio-row ticket-selling-steps__result-radio-row--active">
+                                                        <span class="ticket-selling-steps__result-radio-marker"></span>
+                                                        <p class="ticket-selling-steps__result-radio-text">Электронный
+                                                            билет
+                                                        </p>
+                                                    </div>
+                                                    <div class="ticket-selling-steps__result-radio-row">
+                                                        <span class="ticket-selling-steps__result-radio-marker"></span>
+                                                        <p class="ticket-selling-steps__result-radio-text">Бумажный
+                                                            билет
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-selling-steps__result-box">
+                                            <div class="ticket-selling-steps__result-row">
+                                                <h6 class="ticket-selling-steps__result-row-title">Билет №1</h6>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">сектор</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-sector">
+                                                    1</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">ряд</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-row">
+                                                    2</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">место</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-place">
+                                                    15</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">цена продажи</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-price">
+                                                    12 000 ₽</p>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-selling-steps__result-box">
+                                            <div class="ticket-selling-steps__result-row">
+                                                <h6 class="ticket-selling-steps__result-row-title">Ваши данные </h6>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">Фамилия</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-surname">
+                                                    Иванов</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">Имя</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-name">
+                                                    Иван</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">Отчетсво</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-surname2">
+                                                    Иванович</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">Телефон</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-tel">
+                                                    +7 (900) 743 87 61</p>
+                                            </div>
+                                            <div class="ticket-selling-steps__result-row">
+                                                <p class="ticket-selling-steps__result-row-name">email</p>
+                                                <p
+                                                    class="ticket-selling-steps__result-row-value ticket-selling-steps-email">
+                                                    @yandex.ru</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__result-desc">
+                                        <div class="ticket-selling-steps__result-desc-row">
+                                            <p class="ticket-selling-steps__result-desc-name">цена продажи</p>
+                                            <p
+                                                class="ticket-selling-steps__result-desc-value ticket-selling-selling-price">
+                                                12 000 ₽</p>
+                                        </div>
+                                        <div class="ticket-selling-steps__result-desc-row">
+                                            <p class="ticket-selling-steps__result-desc-name">Расчет комиссии</p>
+                                            <p class="ticket-selling-steps__result-desc-value">500 ₽</p>
+                                        </div>
+                                        <div class="ticket-selling-steps__result-desc-row">
+                                            <p class="ticket-selling-steps__result-desc-name">Итог с продажи</p>
+                                            <p class="ticket-selling-steps__result-desc-value">11 500 ₽</p>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-selling-steps__result-btns">
+                                        <button class="ticket-selling-steps__result-btn ticket-selling-steps__btn-prev"
+                                            type="button">Назад</button>
+                                        <button
+                                            class="ticket-selling-steps__result-btn ticket-selling-steps__result-btn-submit"
+                                            type="submit">Выставить на продажу</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="ticket-selling-steps__right">
+                            <div class="ticket-selling-steps__steps">
+                                <div class="ticket-selling-steps__step ticket-selling-steps__step--active">
+                                    1 шаг
+                                </div>
+                                <div class="ticket-selling-steps__step">
+                                    2 шаг
+                                </div>
+                                <div class="ticket-selling-steps__step">
+                                    3 шаг
+                                </div>
+                            </div>
+                            <div class="ticket-selling-steps__btns">
+                                <button class="ticket-selling-steps__btn ticket-selling-steps__btn-prev" type="button">
+                                    Назад</button>
+                                <button class="ticket-selling-steps__btn ticket-selling-steps__btn-next" type="button">
+                                    Далее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__faq page__faq-two page__faq-ticket-selling-steps">
+                <div class="faq__container container">
+                    <div class="faq__inner">
+                        <h2 class="faq__title main-title">Ответы на вопросы</h2>
+                        <div class="faq__content">
+                            <div class="faq__accordions">
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Когда и как я получу деньги?</h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Сразу на следующий день после окончания мероприятия, если покупатель не
+                                                сообщит, что у него возникли проблемы с использование билета, средства
+                                                будут автоматически переведены с замороженного счета на Ваш основной, и
+                                                Вы сможете вывести их на карту.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Берете ли вы комиссию?</h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Биржа Lottify берет только сервисный сбор — это 10% комиссия с
+                                                покупателя билета, так же как и любой другой билетный оператор.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Как продать бумажные билеты?</h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Если мы найдем покупателя на Ваш бумажный билет, то наши агенты
+                                                организуют весь процесс — заберут билет у вас и доставят его покупателю.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq__accordion">
+                                    <div class="faq__accordion-title">
+                                        <h4 class="faq__accordion-name">Что будет, если мой билет никто так и не
+                                            купит?
+                                        </h4>
+                                        <svg class="faq__accordion-arrow" width="34" height="15" viewBox="0 0 34 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 1.5L17 13.5L32 1.5" stroke="#152026" stroke-width="2.04"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="faq__accordion-content">
+                                        <div class="faq__accordion-body">
+                                            <p class="faq__accordion-text">
+                                                Мы не можем гарантировать 100% продажу Вашего билета. Такое может быть,
+                                                если событие на которое вы продаете билет непопулярное, цена слишком
+                                                высокая или вы продаете билет слишком близко ко времени начала
+                                                мероприятия. Если мероприятие на которое вы продаете билет завершится, а
+                                                билет так и не продастся, то мы уже не сможем найти на него покупателя —
+                                                он просто останется не использованным.
+                                                <br> <br>
+                                                Но наша статистика показывает, что больше 90% билетов продаются в
+                                                течение 4 дней — поэтому в наших силах сделать так, чтобы ни один билет
+                                                не пропал, а события всегда полны зрителей🙂 Наши агенты в нужный момент
+                                                предложат Вам варианты, как увеличить шансы на успешную продажу билета.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="img/faq/2.svg" alt="img" class="faq__right-img-pos">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__inner">
+                    <div class="footer__column footer__column-first">
+                        <a href="index.html" class="footer__column-logo">
+                            <img src="img/header/logo-white.svg" alt="img" class="footer__column-logo-img">
+                        </a>
+                        <div class="footer__column-desc">
+                            <p class="footer__column-text">
+                                8-800 с 9:00 до 20:00 по МСК
+                            </p>
+                            <p class="footer__column-text">
+                                Lottify — это безопасно и надежно покупайте билеты на мероприятия в любом удобном месте
+                            </p>
+                            <p class="footer__column-text">
+                                © 2021 - 2023 Все права защищены
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-item-link">
+                                    правила оказания услуг
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1p9vJncVj3Ki9UkVHQPGjz21nRqLM_6vfbK_H-RfQfl4/edit"
+                                    class="footer__column-item-link">
+                                    оплата и доставка
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1XpH-VttpY8Zaj1uwzTwTbt3DEPDtYJcv/edit"
+                                    class="footer__column-item-link">
+                                    политика конфиденциальности
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1Xy3iyTXuAZi6Yoj9gcv0LfS28L_ZtFo6/edit?rtpof=true&sd=true"
+                                    class="footer__column-item-link">
+                                    агентское соглашение по оказанию услуг
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1LnXxUu3n6xWjU48GAMJbGx9O0riuMUPEtZwDhvd204o/edit"
+                                    class="footer__column-item-link">
+                                    о нас
+                                </a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="https://docs.google.com/document/d/1LnXxUu3n6xWjU48GAMJbGx9O0riuMUPEtZwDhvd204o/edit#heading=h.p2z6z2m4gyar"
+                                    class="footer__column-item-link">
+                                    контакты и реквизиты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__column-desc footer__column-desc-mob">
+                        <p class="footer__column-text">
+                            8-800 с 9:00 до 20:00 по МСК
+                        </p>
+                        <p class="footer__column-text">
+                            Lottify — это безопасно и надежно покупайте билеты на мероприятия в любом удобном месте
+                        </p>
+                        <p class="footer__column-text">
+                            © 2021 - 2023 Все права защищены
+                        </p>
+                    </div>
+                    <div class="footer__column footer__column-payment">
+                        <img src="img/footer/payment.png" alt="img" class="footer__column-img-paymnet">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="burger-menu">
+            <div class="burger-menu__window">
+                <div class="burger-menu__top">
+                    <button class="burger-menu__btn burger-btn" type="button">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.89111L5.5 6.39111" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M10 11L14.5 15.5" stroke="#0B841C" stroke-width="2" stroke-linecap="round" />
+                            <path d="M14.4355 1.89111L1.00052 15.3261" stroke="#0B841C" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <a href="index.html" class="burger-menu__logo-link">
+                        <img src="img/header/logo.svg" alt="logo" class="header__logo-img">
+                    </a>
+                </div>
+                <div class="burger-menu__main">
+                    <div class="burger-menu__row">
+                        <a href="#" class="burger-menu__payments">
+                            <div class="burger-menu__payments-left">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="14.0686" cy="11.2871" rx="12.392" ry="10.2388"
+                                        transform="rotate(-4.36322 14.0686 11.2871)" fill="#EAE024" />
+                                    <path
+                                        d="M23.972 22.8397C14.5711 28.5921 2.0395 24.1119 1.46136 14.7364C1.15236 9.72548 4.58634 3.32175 13.9082 3.22204C20.744 3.14892 25.238 6.9254 26.1857 11.871C28.642 24.6895 8.41675 25.9258 3.93814 16.5155"
+                                        stroke="#152026" stroke-linecap="round" />
+                                    <path
+                                        d="M13.799 17.4323L13.4445 6.82384C14.0809 6.64666 15.6707 6.80449 16.8092 7.26698C18.6588 8.01837 19.3806 11.2972 16.8368 12.8274C14.8018 14.0516 12.6419 13.2127 11.7813 13.0318M11.6547 15.4146L16.103 15.4829"
+                                        stroke="#152026" stroke-linecap="round" />
+                                </svg>
+                                <p class="burger-menu__text">Доступно к выплате</p>
+                            </div>
+                            <div class="burger-menu__payments-right">
+                                <span class="burger-menu__payments-value">
+                                    0 ₽
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="burger-menu__row">
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <svg class="burger-menu__item-icon" width="30" height="30" viewBox="0 0 30 30"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="15.0615" cy="14.2996" rx="13.1364" ry="10.9661"
+                                            transform="rotate(22.3873 15.0615 14.2996)" fill="#EAE024" />
+                                        <path
+                                            d="M19.9987 4C18.4519 6.57812 16.2305 4.56859 13.2957 5.54688C8.65506 7.09375 9.68595 16.375 15.3582 16.375C18.4519 16.375 20.1706 12.4219 18.9674 9.67188"
+                                            stroke="#152026" stroke-linecap="round" />
+                                        <path
+                                            d="M4.18555 26.6877C4.8418 23.9377 8.02461 18.4377 15.5059 18.4377C22.9871 18.4377 25.5137 23.9377 25.8418 26.6877"
+                                            stroke="#152026" stroke-linecap="round" />
+                                        <path d="M13.9824 8.64062C16.0449 8.8125 20.1699 8.125 20.1699 4"
+                                            stroke="#152026" stroke-linecap="round" />
+                                    </svg>
+                                    <p class="burger-menu__item-name burger-menu__text">Профиль</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <svg class="burger-menu__item-icon" width="30" height="30" viewBox="0 0 30 30"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="15.6057" cy="14.4704" rx="10.597" ry="9.44405"
+                                            transform="rotate(22.3873 15.6057 14.4704)" fill="#EAE024" />
+                                        <path
+                                            d="M3.25641 9.03017C9.53749 0.131675 23.9326 3.16952 26.0104 13.885C27.1209 19.6121 23.4365 25.6579 16.8656 26.3034C10.2955 26.9488 5.58624 23.1628 4.30379 18.9752C0.616864 6.93631 17.4979 1.61106 23.337 12.0461"
+                                            stroke="#152026" stroke-linecap="round" />
+                                        <path d="M8.49023 15.5206L13.2011 18.4518L19.4823 12.1707" stroke="#152026"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                    <p class="burger-menu__item-name burger-menu__text">История заказов</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <svg class="burger-menu__item-icon" width="30" height="30" viewBox="0 0 30 30"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2860_484)">
+                                            <ellipse cx="15.6274" cy="14.0642" rx="11.8504" ry="11.7778"
+                                                transform="rotate(-55.2473 15.6274 14.0642)" fill="#EAE024" />
+                                            <path
+                                                d="M6.59025 26.7619C5.33023 17.9418 6.06524 8.38667 6.59025 4.71162C14.1508 3.8716 20.9403 4.36161 23.39 4.71162C25.49 11.0117 24.265 22.0369 23.39 26.7619C17.5099 27.6019 9.74013 27.1119 6.59025 26.7619Z"
+                                                stroke="#152026" stroke-linecap="round" />
+                                            <path d="M16.5645 10.4868H20.7645" stroke="#152026"
+                                                stroke-linecap="round" />
+                                            <path d="M16.5645 17.3118H20.7645" stroke="#152026"
+                                                stroke-linecap="round" />
+                                            <path d="M9.21484 9.9616L10.7899 11.5366L12.8899 7.86157" stroke="#152026"
+                                                stroke-linecap="round" />
+                                            <circle cx="11.3149" cy="17.3119" r="1.60003" stroke="#152026" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2860_484">
+                                                <rect width="30" height="30" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="burger-menu__item-name burger-menu__text">Правила</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger-menu__row">
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <p class="burger-menu__item-text">О нас</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <p class="burger-menu__item-text">Как работает сервис</p>
+                                </a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__item-link">
+                                    <p class="burger-menu__item-text">Ответы на вопросы</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger-menu__row">
+                        <a href="#" class="burger-menu__link-btn">
+                            связаться с нами
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="swiper/swiper.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

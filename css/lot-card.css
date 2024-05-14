@@ -1,0 +1,485 @@
+.page__lot-card-preview {
+    margin: 0px 0px 50px 0px;
+}
+
+.lot-card-preview__container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.lot-card-preview__inner {
+    border-radius: 20px;
+    position: relative;
+}
+
+.lot-card-preview__img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.lot-card-preview__content {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    width: 100%;
+
+    padding: 0px 12px 0px 120px;
+}
+
+.lot-card-preview__name {
+    font-weight: 500;
+    font-size: 42px;
+    color: #f4f9f4;
+
+    margin: 0px 0px 15px 0px;
+}
+
+.lot-card-preview__text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #f4f9f4;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lot-card-preview__text-left {}
+
+.lot-card-preview__text-country {}
+
+.lot-card-preview__text-city {}
+
+.lot-card-preview__text-place {}
+
+.lot-card-preview__text-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.lot-card-preview__text-date {
+    width: 172px;
+}
+
+.lot-card-preview__text-time {
+    width: 172px;
+}
+
+/* ----------------page__lot-card-info----------------- */
+
+.page__lot-card-info {
+    margin: 0px 0px 35px 0px;
+}
+
+.lot-card-info__container {}
+
+.lot-card-info__inner {}
+
+.lot-card-info__tabs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    border-bottom: 2px solid rgb(11, 132, 28, .5);
+
+    max-width: 512px;
+    width: 100%;
+
+    margin: 0px 0px 48px 0px;
+}
+
+.lot-card-info__tab {
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: -0.02em;
+    text-transform: lowercase;
+    color: rgb(11, 132, 28, .5);
+
+    position: relative;
+
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.lot-card-info__tab::after {
+    content: '';
+
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+
+    border-radius: 20px;
+    background-color: rgb(11, 132, 28);
+
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.lot-card-info__tab---active {
+    color: rgb(11, 132, 28);
+}
+
+.lot-card-info__tab---active.lot-card-info__tab::after {
+    opacity: 1;
+}
+
+.lot-card-info__content {
+    display: none;
+
+    max-width: 700px;
+    width: 100%;
+}
+
+.lot-card-info__content--active {
+    display: block;
+}
+
+.lot-card-info__title {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    margin: 0px 0px 32px 0px;
+}
+
+.lot-card-info__desc {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lot-card-info__desc-text {}
+
+.sold-lots__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sold-lots__item {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sold-lots__item-text {
+    color: #0b841c;
+}
+
+.sold-lots__seller-name {}
+
+.sold-lots__buyers-name {}
+
+.sold-lots__date {}
+
+/* ---------------------------------- */
+
+.page__lot-card-tickets {
+    margin: 0px 0px 62px 0px;
+}
+
+.lot-card-tickets__container {}
+
+.lot-card-tickets__inner {}
+
+.lot-card-tickets__title {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    margin: 0px 0px 34px 0px;
+}
+
+.lot-card-tickets__content {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.lot-card-tickets__list {
+    max-width: 513px;
+    width: 100%;
+
+    padding: 30px 22px 52px 30px;
+
+    box-shadow: 0 0 13px 0 #dae6da;
+    background: #f4f9f4;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.lot-card-tickets__item {}
+
+.lot-card-tickets__item:not(:last-child) {
+    padding: 0px 0px 23px 0px;
+
+    border-bottom: 1px solid #000;
+}
+
+.lot-card-tickets__item-link {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.lot-card-tickets__left {}
+
+.lot-card-tickets__desc {
+    margin: 0px 0px 24px 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #000;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.lot-card-tickets__row {}
+
+.lot-card-tickets__place {}
+
+.lot-card-tickets__seller {}
+
+.lot-card-tickets__seller-top {
+    margin: 0px 0px 10px 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lot-card-tickets__seller-avatar {
+    min-width: 21px;
+    min-height: 21px;
+    max-width: 21px;
+    max-height: 21px;
+    border-radius: 50%;
+}
+
+.lot-card-tickets__seller-name {
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: -0.02em;
+    color: #152026;
+}
+
+.lot-card-tickets__seller-comment {
+    padding: 0px 0px 0px 31px;
+
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: -0.02em;
+    color: rgb(21, 32, 38, .5);
+}
+
+.lot-card-tickets__right {}
+
+.lot-card-tickets__price {
+    padding: 4px 20px;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #0b841c;
+
+    border: 1px solid #0b841c;
+    border-radius: 50px;
+}
+
+.faq__right-hide {
+    display: none;
+}
+
+.lot-card-tickets__no-tickets {
+    text-align: center;
+
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.lot-card-tickets__no-tickets-img {
+    margin: 0px 0px 20px 0px;
+}
+
+.lot-card-tickets__no-tickets-text {
+    margin: 0px 0px 30px 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.lot-card-tickets__no-tickets-link {
+    padding: 5px 17.5px;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #f4f9f4;
+}
+
+/* -----------------media-------------- */
+
+@media(max-width:768px) {
+
+    .page__lot-card-preview {
+        margin: 0px 0px 27px 0px;
+    }
+
+    .lot-card-preview__content {
+        position: unset;
+        padding: 0;
+    }
+
+    .lot-card-preview__container {
+        padding: 0 16px;
+    }
+
+    .lot-card-preview__name {
+        font-size: 24px;
+        color: #152026;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .lot-card-preview__text {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: rgb(21, 32, 38, .5);
+
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+
+    .lot-card-preview__img {
+        margin: 0px 0px 8px 0px;
+    }
+
+    .lot-card-preview__text-right {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #152026;
+
+        width: 100%;
+    }
+
+    .lot-card-preview__text-date,
+    .lot-card-preview__text-time {
+        width: 100%;
+    }
+
+
+
+    .lot-card-info__tabs {
+        border-bottom: 1px solid rgb(11, 132, 28, .5);
+        margin: 0px 0px 32px 0px;
+    }
+
+    .lot-card-info__tab {
+        font-size: 12px;
+        line-height: 167%;
+        padding: 0px 0px 7px 0px;
+    }
+
+    .lot-card-info__tab::after {
+        height: 5px;
+        bottom: -3px;
+    }
+
+    .lot-card-info__title,
+    .lot-card-tickets__title {
+        font-size: 16px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .lot-card-info__desc {
+        font-size: 12px;
+        gap: 15px;
+    }
+
+    .lot-card-tickets__desc {
+        margin: 0px 0px 12px 0px;
+    }
+
+    .lot-card-tickets__seller-comment {
+        padding: 0;
+    }
+
+    .lot-card-tickets__item:not(:last-child) {
+        padding: 0px 0px 16px 0px;
+    }
+
+    .sold-lots__item {
+        font-size: 16px;
+    }
+
+
+
+    .page__lot-card-tickets .faq__right {
+        display: flex;
+        max-width: unset;
+        gap: 16px;
+    }
+
+    .lot-card-tickets__content {
+        flex-wrap: wrap;
+        gap: 47px;
+    }
+
+    .faq__right-img {
+        bottom: 0;
+    }
+
+    .lot-card-tickets__list {
+        max-width: unset;
+        padding: 0;
+        box-shadow: none;
+        gap: 24px;
+    }
+
+    .page__lot-card-tickets {
+        margin: 0px 0px 30px 0px;
+    }
+
+
+
+    .faq__right-hide {
+        display: block;
+    }
+}
+
+@media(max-width:370px) {
+    .faq__right-img {
+        max-width: 120px;
+    }
+}
